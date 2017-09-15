@@ -1,0 +1,594 @@
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0"
+ srcLang="es" trgLang="en">
+ <file id="b71f4e39-bf5d-4466-8a75-81d5fc25278c" original="LOWFUZZIES_25. GA30044_EC Clarification request_28Oct2016 - ESP.pdf">
+  <skeleton href=""/>
+  <unit id="f4444fcc-4473-4b52-b588-437ad6cb29e0">
+   <segment>
+    <source>DICTAMEN DEL COMITÉ AUTONÓMICO DE ÉTICA DE LA INVESTIGACIÓN DE GALICIA</source>
+    <target>OPINION OF THE AUTONOMOUS RESEARCH ETHICS COMMITTEE OF GALICIA</target>
+   </segment>
+  </unit>
+  <unit id="3142ee07-07d7-4bc1-b202-279103b79ff8">
+   <segment>
+    <source>Paula M.</source>
+    <target>Paula M.</target>
+   </segment>
+  </unit>
+  <unit id="e34b6d59-f741-416a-bceb-719a0fd1cbc1">
+   <segment>
+    <source>López Vázquez, Secretaria del Comité Autonómico de Ética de la Investigación de Galicia,</source>
+    <target>López Vázquez, Secretary of the Autonomous Research Ethics Committee of Galicia,</target>
+   </segment>
+  </unit>
+  <unit id="15d0141e-526c-40ee-a380-c80d90a5e1bd">
+   <segment>
+    <source>CERTIFICA:</source>
+    <target>HEREBY CERTIFIES:</target>
+   </segment>
+  </unit>
+  <unit id="ffda6cd8-730e-41cd-b948-afca0b3af832">
+   <segment>
+    <source>Que este Comité evaluó en la reunión celebrada el día 27/10/16 la propuesta del ensayo clínico:</source>
+    <target>That this Committee evaluated at the meeting held on 10/27/16 the proposal of the clinical trial:</target>
+   </segment>
+  </unit>
+  <unit id="19c734f1-ecfa-4514-85c5-308c32eb26a0">
+   <segment>
+    <source>Nº EudraCT: 2016-001039-11</source>
+    <target>No. EudraCT: 2016-001039-11</target>
+   </segment>
+  </unit>
+  <unit id="54bcefa0-c368-42de-a2db-1f2f399b1c2c">
+   <segment>
+    <source>Título: Estudio en fase II, aleatorizado, doble ciego y controlado con placebo de la seguridad y la eficacia de GDC-0853 en pacientes con lupus eritematoso sistémico activo de moderado a grave</source>
+    <target>Title: Phase II, randomized, double-blind, placebo-controlled study of the safety and efficacy of GDC-0853 in patients with moderate to severe active systemic lupus erythematosus</target>
+   </segment>
+  </unit>
+  <unit id="cd5ac2ce-73ef-4850-adb0-b8388259239c">
+   <segment>
+    <source>Código del promotor: GA30044 Código de Registro: 2016/489 Promotor:Genentech, Inc.</source>
+    <target>Sponsor Code: GA30044 Registration Code: 2016/489 Sponsor: Genentech, Inc.</target>
+   </segment>
+  </unit>
+  <unit id="4016ead7-18c7-438a-b499-d7ad667fad59">
+   <segment>
+    <source>Versión/fecha del protocolo y Hoja de Información al Paciente: Versión 1 de 27 de junio de 2016; HIP y CI, Spanish Main Subject Informed consent Form Version 01ESP(es)01 dated 03Aug2016; HIP y CI para la obtención opcional de muestras biológicas para investigación, Spanish RBR ICF V1.0ESP (es)01dated 12Aug2016;</source>
+    <target>Version/date of protocol and Patient Information Sheet: Version 1 of June 27,2016; HIP and CI, Spanish Main Subject Informed consent Form Version 01ESP (s)01 dated 03Aug2016; HIP and CI for optional collection of biological samples for research, Spanish RBR ICF V1.0ESP (s)01dated 12Aug2016;</target>
+   </segment>
+  </unit>
+  <unit id="7f64a2a9-81c3-499c-a14f-2eb6ebd5ecc8">
+   <segment>
+    <source>Formulario de consentimiento informado y seguimiento de la pareja embarazada,</source>
+    <target>Informed consent form and follow-up of the pregnant couple,</target>
+   </segment>
+  </unit>
+  <unit id="ed405b88-0cba-4c0d-9791-70c3e9635ba0">
+   <segment>
+    <source>Spanish Pregnant Partner ICF V1.0ESP(es)01dated 05Aug2016</source>
+    <target>Spanish Pregnant Partner ICF V1.0ESP(es)01dated 05Aug2016</target>
+   </segment>
+  </unit>
+  <unit id="cf3519d6-dd2c-45df-bbd7-d2e44e49faf8">
+   <segment>
+    <source>Que este Comité ha realizado la evaluación de la parte II de la solicitud de autorización del ensayo, de acuerdo con lo previsto en el Real Decreto 1090/2015 y en el art 7 del reglamento (UE) 536/2014 y ha decidido SOLICITAR LAS ACLARACIONES que se listan a continuación:</source>
+    <target>That this Committee has carried out the evaluation of part II of the application for authorisation of the trial, in accordance with the provisions of Royal Decree 1090/2015 and Article 7 of Regulation (EU) 536/2014 and has decided to REQUEST THE CLARIFICATIONS listed below:</target>
+   </segment>
+  </unit>
+  <unit id="b72ce65e-8baf-48d1-9d8e-e80ea74c9020">
+   <segment>
+    <source>Remitir de nuevo el documento de idoneidad de las instalaciones del centro de Murcia (incluyendo nombre y cargo de la persona que lo firma).</source>
+    <target>Resubmit the document of suitability of the facilities in the site of Murcia (including name and position of the person signing it).</target>
+   </segment>
+  </unit>
+  <unit id="da5b56e2-449e-4299-9188-7fb87a3deb7e">
+   <segment>
+    <source>Materiales de reclutamiento: dado el tamaño muestral previsto y el numero de pacientes por centro (1) no consideramos preciso el uso de metodos destinados a la población general (en concreto el Newspaper Advertisement y los Postings).</source>
+    <target>Recruitment materials: given the expected sample size and the number of patients per site (1) we do not consider it necessary to use methods intended for the general population (namely the Newspaper Advertisement and the Postings).</target>
+   </segment>
+  </unit>
+  <unit id="821b343a-1b26-401f-8cae-e9b7ae13833d">
+   <segment>
+    <source>El resto de documentos dirigidos a población con LES, los dejamos a criterio de uso de cada centro en base a sus normas de regulamiento interno.</source>
+    <target>The rest of the documents addressed to population with SLE, we leave them to the criteria of use of each site based on its internal regulation standards.</target>
+   </segment>
+  </unit>
+  <unit id="4bb11b89-e6cc-4151-9d3a-5902e73ec9bd">
+   <segment>
+    <source>Documentos de consentimiento</source>
+    <target>Consent Documents</target>
+   </segment>
+  </unit>
+  <unit id="ff3dfd53-eeac-40db-9c7f-8e9753fb1fab">
+   <segment>
+    <source>La hoja de información del estudio principal es excesivamente larga, les recomendamos que hagan un ejercicio de síntesis para facilitar la lectura a los participantes (no debería exceder las 15 hojas).</source>
+    <target>The main study information sheet is excessively long, we recommend that you do a synthesis exercise to facilitate reading to the participants (it should not exceed 15 sheets).</target>
+   </segment>
+  </unit>
+  <unit id="eba41e1b-51ce-45be-87d8-3944ab91427b">
+   <segment>
+    <source>A este respecto, hay apartados que podrían resumirse como las menciones a analíticas a realizar,  riesgos del ECG o de radiografías.</source>
+    <target>In this respect, there are sections that could be summarized as the mentions of analytics to be performed, ECG risks or X-rays.</target>
+   </segment>
+  </unit>
+  <unit id="56643c09-581b-43e2-a98a-704abd7e3d87">
+   <segment>
+    <source>En el apartado de responsabilidad ante daños no procede la descripción de las coberturas y no coberturas, sino que se debe mencionar únicamente que el promotor ha contratado una póliza de seguro de acuerdo a lo establecido en el</source>
+    <target>In the section on liability for damage, the description of the coverage and non-coverage does not apply, but it must be mentioned only that the sponsor has contracted an insurance policy in accordance with what is established in the</target>
+   </segment>
+  </unit>
+  <unit id="ddebf9f7-6d2f-40de-b9d5-6b1a05c8823c">
+   <segment>
+    <source>R.D 1090/2015 así como la compañía, y que ante la sospecha de haber  sufrido alguna lesión debe informar a su médico.</source>
+    <target>R.D 1090/2015 as well as the company, and that on suspicion of having suffered an injury you should inform your doctor.</target>
+   </segment>
+  </unit>
+  <unit id="c0ccbf03-caf1-4a24-aba6-772e548575f1">
+   <segment>
+    <source>Consideramos que también podría reducirse la descripción de los  efectos del medicamento en investigación en animales.</source>
+    <target>We believe that the description of the effects of the investigational drug on animals could also be reduced.</target>
+   </segment>
+  </unit>
+  <unit id="5a616c59-b7cf-41a2-9219-afdd307e7467">
+   <segment>
+    <source>Hacer mención completa al título de las normas para que el participante puede identificarlas de manera más sencilla y consultarlas si lo desea (nos referimos en particular a las menciones a RD 1090/2015 y BPC/CPMP/ICH que se ofrece en la pág.</source>
+    <target>Make a complete mention of the title of the rules so that the participant can identify them more easily and consult them if desired (we refer in particular to the mentions of RD 1090/2015 and BPC/CPMP/ICH on the page).</target>
+   </segment>
+  </unit>
+  <unit id="1768ca03-405a-435a-bcdd-75443e220f23">
+   <segment>
+    <source>Añadir que el investigador recibirá una compensación económica por participar.</source>
+    <target>Add that the investigator will receive financial compensation for participating.</target>
+   </segment>
+  </unit>
+  <unit id="b577e644-bafd-46cc-b401-33a00ff27b9f">
+   <segment>
+    <source>Con respecto a la mención que repiten en varios apartados “autoriza al centro del estudio a usar o divulgar (compartir) su información médica que permita identificarle para los fines de este ensayo clínico”, consideramos que debiera ser retirada y dejar suficientemente claro, que la información clínica que salga del centro sanitario será solo identificada por un código y sin datos de carácter personal que puedan identificarle de manera directa.</source>
+    <target>Regarding the repeated mention in several paragraphs, "we authorize the study site to use or disclose (share) your medical information that will allow us to identify you for the purposes of this clinical trial", we consider that it should be withdrawn and make it clear enough that clinical information that leaves the health site will only be identified by a code and without personal data that can identify you directly.</target>
+   </segment>
+  </unit>
+  <unit id="5bb7c962-3316-44dc-a70f-118531d67c98">
+   <segment>
+    <source>Tal como está descrito puede confundir al participante.</source>
+    <target>As described can confuse the participant.</target>
+   </segment>
+  </unit>
+  <unit id="175d633a-52da-4749-baa5-effaee4adef5">
+   <segment>
+    <source>En general les recomendamos que dentro del ejercicio de síntesis intenten resumir el antepenúltimo y penúltimo apartados en uno (dado que se repite información sobre el manejo de datos).</source>
+    <target>In general we recommend that within the exercise of synthesis try to summarize the antepenultimate and penultimate sections in one (since data management information is repeated).</target>
+   </segment>
+  </unit>
+  <unit id="a227737d-f8dc-4d22-9c0e-de5385fca7d6">
+   <segment>
+    <source>Falta la opción de consentimiento oral  ante testigo para pacientes capaces pero con alguna discapacidad que le impida leer/escribir.</source>
+    <target>There is no option of oral consent to witness for able patients but with a disability that prevents him/her from reading/writing.</target>
+   </segment>
+  </unit>
+  <unit id="4bed5076-3f37-40c8-a060-a57a5ec205ca">
+   <segment>
+    <source>Ante la posibilidad de teratogenia debe asegurarse la asistencia médica en cualquier caso con una fórmula como "se pondrán a su disposición la atención médica y los medios necesarios en consonancia con la decisión que Vd.</source>
+    <target>In view of the possibility of teratogeny, medical assistance should be assured in any case with a formula such as "medical care and the necessary means will be made available in accordance with the decision you make</target>
+   </segment>
+  </unit>
+  <unit id="3d2db278-45ff-4855-b334-9f9028808fcd">
+   <segment>
+    <source>adopte sobre su embarazo".</source>
+    <target>about your pregnancy."</target>
+   </segment>
+  </unit>
+  <unit id="13886472-87d2-4f07-982c-2bb30f93fe30">
+   <segment>
+    <source>Advertir de las potenciales consecuencias que participar en un ensayo clínico pueden tener sobre las condiciones de seguros privados (como seguros de vida) que puedan tener contratados los participantes.</source>
+    <target>Warn about the potential consequences that participating in a clinical trial may have on the conditions of private insurance (such as life insurance) that participants may have contracted </target>
+   </segment>
+  </unit>
+  <unit id="8ebb940b-6f7d-4d6c-af82-87e5c312ce5f">
+   <segment>
+    <source>No se acepta la mención “no se compartirán ni con usted ni con su médico ...”.</source>
+    <target>The mention "will not be shared with you or your doctor ..." is not accepted.</target>
+   </segment>
+  </unit>
+  <unit id="8a873553-9c9d-4730-be38-0378cbfb35df">
+   <segment>
+    <source>A priori, se debe dar opción mientras las muestras estén codificadas a conocer los análisis y resultados de éstos que se hagan con las mismas, aun con la advertencia de que éstos resultados probablemente no tengan implicaciones clínicas individuales sino sólo interés científico.</source>
+    <target>A priori, the option should be given as long as the samples are coded to know the analyzes and results of those that are done with them, even with the warning that these results probably do not have individual clinical implications but Only scientific interest.</target>
+   </segment>
+  </unit>
+  <unit id="9a101cc5-3668-4b9c-a58f-3a08c218fedd">
+   <segment>
+    <source>Esto mismo es de aplicación para los usos futuros que se solicitan en documento aparte.</source>
+    <target>The same is applicable for future uses that are requested in separate document.</target>
+   </segment>
+  </unit>
+  <unit id="738d9295-6671-4641-9689-2d4eeccd3034">
+   <segment>
+    <source>Documentos muestras usos futuros / banco:  A este respecto y dado que los usos que se plantean son indefinidos y no centrados en una línea de investigación, la conservación de muestras para una vez rematado el plazo de conservación dentro de los procedimientos del ensayo, sólo procedería si se comprometen o bien a anonimizarlas o bien a almacenarlas en un Biobanco que cumpla los requisitos establecidos en Ley 14/2007, RD 1716/2011 (normas del país donde se da el acto de donación de la muestra) y a la Recomendación del Comité de Ministros a los estados miembros sobre investigación en muestras biológicas de origen humano REC (2016)6.</source>
+    <target>Sample documents future uses / bank: In this respect and given that the uses that arise are indefinite and not centered on a line of research, the conservation of samples for once expired the conservation term within the procedures of the test, would only proceed if they are committed either to anonymize them or to store them in a Biobank that meets the requirements established in Law 14/2007, RD 1716/2011 (standards of the country where the act of donating the sample is given) and the Recommendation of the Committee Of Ministers to Member States on Research on Biological Specimens of Human Origin REC (2016) 6.</target>
+   </segment>
+  </unit>
+  <unit id="8144680c-235a-4cfd-8acd-55866175717e">
+   <segment>
+    <source>Es importante que se indique que el banco de muestra está sujeto a una revisión externa e independiente de acuerdo a lo indicado en las mencionadas normas.</source>
+    <target>It is important to indicate that the sample bank is subject to an external and independent review as indicated in the mentioned standards.</target>
+   </segment>
+  </unit>
+  <unit id="84fcac5d-7b37-4db4-b8e5-508ab14fdbb6">
+   <segment>
+    <source>Que en dicha reunión se cumplieron los requisitos establecidos en la legislación vigente – Real Decreto 1090/2015 – para que la decisión del citado CEIm sea válida.</source>
+    <target>That at that meeting the requirements established in the legislation in force - Royal Decree 1090/2015 - were fulfilled in order for the decision of the aforementioned CEIm to be valid.</target>
+   </segment>
+  </unit>
+  <unit id="dc5752ba-5e3c-4b5a-9da6-d4179ca31f76">
+   <segment>
+    <source>Que el Comité  tanto en su composición como en sus procedimientos, cumple con las normas de BPC (CPMP/ICH/135/95) y con la legislación vigente que regula su funcionamiento,  y que la composición del mismo es la indicada en el anexo I, teniendo en cuenta que en el caso de que algún miembro participe en el ensayo o declare algún conflicto de interés, se ausentará durante la evaluación.</source>
+    <target>That the Committee, both in its composition and procedures, complies with the GCP standards (CPMP/ICH/135/95) and with the current legislation that regulates its operation, and that its composition is indicated in Addendum I, taking into account that in the event that any member participates in the trial or declares any conflict of interest, it will be absent during the evaluation.</target>
+   </segment>
+  </unit>
+  <unit id="76fdf413-fd2c-403e-8f56-2e3c95905449">
+   <segment>
+    <source>En Santiago de Compostela, a 28 de octubre de 2016</source>
+    <target>In Santiago de Compostela, on 28 October 2016</target>
+   </segment>
+  </unit>
+  <unit id="4c0866bd-4676-4a26-b05d-cc72b9c3fcac">
+   <segment>
+    <source>Anexo I : Composición del Comité Autonómico de Ética de la Investigación de</source>
+    <target>Addendum I: Composition of the Autonomous Ethics Research Committee of</target>
+   </segment>
+  </unit>
+  <unit id="a2a886fb-a7af-47c2-9df1-b045ba27393e">
+   <segment>
+    <source>Galicia (CAEIG)</source>
+    <target>Galicia (CAEIG)</target>
+   </segment>
+  </unit>
+  <unit id="53df82a9-9362-4bbf-b1f3-b34ea93e2566">
+   <segment>
+    <source>Manuel Portela Romero.</source>
+    <target>Manuel Portela Romero.</target>
+   </segment>
+  </unit>
+  <unit id="3d3fa039-35ed-412e-987d-3abd17bfb201">
+   <segment>
+    <source>(Presidente).</source>
+    <target>(Chairperson).</target>
+   </segment>
+  </unit>
+  <unit id="c5cf8cec-f9ab-45f9-9159-891b0fdb1618">
+   <segment>
+    <source>Médico Especialista en Medicina Familiar y Comunitaria.</source>
+    <target>Physician Specialist in Family and Community Medicine.</target>
+   </segment>
+  </unit>
+  <unit id="9f9546d9-6d72-402e-a0b1-6d42704f35c9">
+   <segment>
+    <source>Irene Zarra Ferro.</source>
+    <target>Irene Zarra Ferro.</target>
+   </segment>
+  </unit>
+  <unit id="9293e5ca-31db-49b5-a4c7-88c142f0c320">
+   <segment>
+    <source>(Vicepresidenta).</source>
+    <target>(Vice-Chairperson).</target>
+   </segment>
+  </unit>
+  <unit id="3b9986f0-7dde-4e3e-9495-a59a1da8f741">
+   <segment>
+    <source>Farmacéutica de Atención Especializada.</source>
+    <target>Pharmaceutical Specialized Care.</target>
+   </segment>
+  </unit>
+  <unit id="a54f7e02-8013-4549-b4f7-935fc37307f9">
+   <segment>
+    <source>Paula Mª López Vázquez, (Secretaria).</source>
+    <target>Paula Mª López Vázquez, (Secretary).</target>
+   </segment>
+  </unit>
+  <unit id="50b6aa0c-b806-4c01-9f2d-c6a02746acca">
+   <segment>
+    <source>Médico Especialista en Farmacología Clínica.</source>
+    <target>Medical Specialist in Clinical Pharmacology.</target>
+   </segment>
+  </unit>
+  <unit id="b854cbc0-e645-416c-94b6-471f20941944">
+   <segment>
+    <source>Juan Vázquez Lago  (Secretario Suplente).</source>
+    <target>Juan Vázquez Lago (Alternate Secretary).</target>
+   </segment>
+  </unit>
+  <unit id="5b492dae-3e40-4c94-a9ae-36a7aaa9cafe">
+   <segment>
+    <source>Médico Especialista en Medicina Preventiva y Salud Pública.</source>
+    <target>Medical Specialist in Preventive Medicine and Public Health.</target>
+   </segment>
+  </unit>
+  <unit id="9fd52d2a-3b36-42ac-a1ec-81d5a5917e90">
+   <segment>
+    <source>Jesús Alberdi Sudupe.</source>
+    <target>Jesús Alberdi Sudupe.</target>
+   </segment>
+  </unit>
+  <unit id="ae8b4c29-0540-4f29-a7b5-6b75f72ccddd">
+   <segment>
+    <source>Médico especialista en Psiquiatría.</source>
+    <target>Medical Specialist in Psychiatry.</target>
+   </segment>
+  </unit>
+  <unit id="f0676b72-f239-4fe5-82ed-59f12de927e0">
+   <segment>
+    <source>Rosendo Bugarín González.</source>
+    <target>Rosendo Bugarín González.</target>
+   </segment>
+  </unit>
+  <unit id="b453072d-8284-4f23-a58a-ee525f5a1633">
+   <segment>
+    <source>Médico Especialista en Medicina Familiar y Comunitaria.</source>
+    <target>Physician Specialist in Family and Community Medicine.</target>
+   </segment>
+  </unit>
+  <unit id="8dc931c7-709f-4b7c-bbf8-1c9b1dbe6b85">
+   <segment>
+    <source>Juan Casariego Rosón.</source>
+    <target>Juan Casariego Rosón.</target>
+   </segment>
+  </unit>
+  <unit id="5360327b-d208-49cc-b0e8-5163b241411b">
+   <segment>
+    <source>Médico Especialista en Cardiología.</source>
+    <target>Cardiology Specialist.</target>
+   </segment>
+  </unit>
+  <unit id="2c5d9e5e-95cd-4554-a82c-ec0848348cfd">
+   <segment>
+    <source>Xoán X.</source>
+    <target>Xoán X.</target>
+   </segment>
+  </unit>
+  <unit id="d64ade27-0aef-4fd5-9fa4-a4b373967a9d">
+   <segment>
+    <source>Casas Rodríguez.</source>
+    <target>Casas Rodríguez.</target>
+   </segment>
+  </unit>
+  <unit id="89bda167-5510-4e15-a4ce-e89b89611c1b">
+   <segment>
+    <source>Médico Especialista en Medicina Familiar y Comunitaria.</source>
+    <target>Physician Specialist in Family and Community Medicine.</target>
+   </segment>
+  </unit>
+  <unit id="03c71f38-a8e6-4869-93bb-6c2dc1cdc440">
+   <segment>
+    <source>Juana Mª Cruz del Río.</source>
+    <target>Juana Mª Cruz del Río.</target>
+   </segment>
+  </unit>
+  <unit id="f1def8e6-e4ed-4c35-8eb6-1b2614146b82">
+   <segment>
+    <source>Trabajadora Social.</source>
+    <target>Social Worker.</target>
+   </segment>
+  </unit>
+  <unit id="2c6967fb-53f8-4fd1-aff4-8b78907b831d">
+   <segment>
+    <source>Juan Fernando Cueva Bañuelos.</source>
+    <target>Juan Fernando Cueva Bañuelos.</target>
+   </segment>
+  </unit>
+  <unit id="7c938509-18bb-43c4-86d6-80804b8fe08e">
+   <segment>
+    <source>Médico Especialista en Oncología Médica.</source>
+    <target>Physician Specialist in Medical Oncology.</target>
+   </segment>
+  </unit>
+  <unit id="ece0c01f-70a5-4822-96e1-f0f794120808">
+   <segment>
+    <source>José Álvaro Fernández Rial.</source>
+    <target>José Álvaro Fernández Rial.</target>
+   </segment>
+  </unit>
+  <unit id="b8e96088-9653-42c8-9fd7-40f348fb89c0">
+   <segment>
+    <source>Médico Especialista en Medicina Interna.</source>
+    <target>Medical Specialist in Internal Medicine.</target>
+   </segment>
+  </unit>
+  <unit id="27700c74-1029-4544-9024-b716252831c7">
+   <segment>
+    <source>José Luis Fernández Trisac.</source>
+    <target>José Luis Fernández Trisac.</target>
+   </segment>
+  </unit>
+  <unit id="d7b281f3-1f1b-4fc2-9f2a-1919b2a2c7f1">
+   <segment>
+    <source>Médico Especialista en Pediatría.</source>
+    <target>Physician Specialist in Pediatrics.</target>
+   </segment>
+  </unit>
+  <unit id="31ea3769-7c1f-4afe-9c07-a3176cfeb7a4">
+   <segment>
+    <source>Mª José Ferreira Díaz.</source>
+    <target>Mª José Ferreira Díaz.</target>
+   </segment>
+  </unit>
+  <unit id="0cc4989b-bacb-43fe-b328-b90e367a2371">
+   <segment>
+    <source>Diplomada Universitaria de Enfermería.</source>
+    <target>University Diploma in Nursing.</target>
+   </segment>
+  </unit>
+  <unit id="c34ac951-a8b8-49b9-b232-5b2d533c8f01">
+   <segment>
+    <source>Pablo Nimo Ríos.</source>
+    <target>Pablo Nimo Ríos.</target>
+   </segment>
+  </unit>
+  <unit id="15344ed4-0c8c-435b-8c00-38fc7759b446">
+   <segment>
+    <source>Licenciado en Derecho.</source>
+    <target>Graduate of Law.</target>
+   </segment>
+  </unit>
+  <unit id="b69ae863-1007-4a21-bcda-cbdf8695cd3a">
+   <segment>
+    <source>Pilar Gayoso Diz.</source>
+    <target>Pilar Gayoso Diz.</target>
+   </segment>
+  </unit>
+  <unit id="bea63956-a27c-419f-8f59-f2b5b242832b">
+   <segment>
+    <source>Médico Especialista en Medicina Familiar y Comunitaria.</source>
+    <target>Medical Specialist in Family and Community Medicine.</target>
+   </segment>
+  </unit>
+  <unit id="ab6f443b-842d-4a65-ae1e-3874f42c5594">
+   <segment>
+    <source>Agustín Pía Morandeira.</source>
+    <target>Agustín Pía Morandeira.</target>
+   </segment>
+  </unit>
+  <unit id="a561e7e0-b59b-4aa9-9a09-b60d3ad822d6">
+   <segment>
+    <source>Farmacéutico de Atención Primaria</source>
+    <target>Primary Care Pharmacist</target>
+   </segment>
+  </unit>
+  <unit id="31d89bee-2556-43a8-b24a-c1d7b2365534">
+   <segment>
+    <source>Salvador Pita Fernández.</source>
+    <target>Salvador Pita Fernández.</target>
+   </segment>
+  </unit>
+  <unit id="166dc890-1983-492d-9550-b91418bcb6d9">
+   <segment>
+    <source>Médico Especialista en Medicina Familiar y Comunitaria.</source>
+    <target>Medical Specialist in Family and Community Medicine.</target>
+   </segment>
+  </unit>
+  <unit id="d091f715-6808-438d-a9ca-7706c4dec9d3">
+   <segment>
+    <source>Carmen Rodríguez-Tenreiro Sánchez.</source>
+    <target>Carmen Rodríguez-Tenreiro Sánchez.</target>
+   </segment>
+  </unit>
+  <unit id="ba9da853-61ce-4b8e-a2ca-58dadaade9e5">
+   <segment>
+    <source>Licenciada en Farmacia.</source>
+    <target>Graduate of Pharmacy.</target>
+   </segment>
+  </unit>
+  <unit id="599d6257-768d-4af3-b442-a08f2cce7a7d">
+   <segment>
+    <source>Susana María Romero Yuste.</source>
+    <target>Susana María Romero Yuste.</target>
+   </segment>
+  </unit>
+  <unit id="2434a23f-9bed-4603-bcb9-b3606fd03feb">
+   <segment>
+    <source>Médico Especialista en Reumatología.</source>
+    <target>Rheumatology Specialist.</target>
+   </segment>
+  </unit>
+  <unit id="b3bdc72a-d22e-4af0-87d1-624cae463a47">
+   <segment>
+    <source>Mª Asunción Verdejo González.</source>
+    <target>Mª Asunción Verdejo González.</target>
+   </segment>
+  </unit>
+  <unit id="287279ee-045f-4442-a20b-33673a5407c6">
+   <segment>
+    <source>Médico Especialista en Farmacología Clínica.</source>
+    <target>Medical Specialist in Clinical Pharmacology.</target>
+   </segment>
+  </unit>
+  <unit id="bc864dd8-02a9-4071-98a6-4aa18113be91">
+   <segment>
+    <source>CAEI de Galicia</source>
+    <target>CAEI de Galicia</target>
+   </segment>
+  </unit>
+  <unit id="ea067a80-1292-4800-b0a6-798ace0779f7">
+   <segment>
+    <source>Edificio Administrativo San Lázaro</source>
+    <target>Administrative Building San Lázaro</target>
+   </segment>
+  </unit>
+  <unit id="e5677385-3248-4459-9b40-b3b5cc9e1261">
+   <segment>
+    <source>15703 SANTIAGO DE COMPOSTELA</source>
+    <target>15703 SANTIAGO DE COMPOSTELA</target>
+   </segment>
+  </unit>
+  <unit id="6b55b8ed-0fd7-418f-aa82-01f66d07ebc0">
+   <segment>
+    <source>Teléfono: 881546425 ceic@sergas.es</source>
+    <target>Phone: 881546425 ceic@sergas.es</target>
+   </segment>
+  </unit>
+  <unit id="aecbed34-857a-465d-aabd-dbc62695518f">
+   <segment>
+    <source>CAEI de Galicia</source>
+    <target>CAEI de Galicia</target>
+   </segment>
+  </unit>
+  <unit id="9c85af50-3c59-4a4b-8e2d-d2815dc1eccb">
+   <segment>
+    <source>Edificio Administrativo San Lázaro</source>
+    <target>Administrative Building San Lázaro</target>
+   </segment>
+  </unit>
+  <unit id="d933a606-2cb2-462e-8b15-9b740b7fe65b">
+   <segment>
+    <source>15703 SANTIAGO DE COMPOSTELA</source>
+    <target>15703 SANTIAGO DE COMPOSTELA</target>
+   </segment>
+  </unit>
+  <unit id="af3c27f8-15a7-44d5-bb5f-73508a77a399">
+   <segment>
+    <source>Teléfono: 881546425 ceic@sergas.es</source>
+    <target>Phone: 881546425 ceic@sergas.es</target>
+   </segment>
+  </unit>
+  <unit id="697b62f5-5d5c-4a6a-907b-215cb6e1e0df">
+   <segment>
+    <source>CAEI de Galicia</source>
+    <target>CAEI de Galicia</target>
+   </segment>
+  </unit>
+  <unit id="b5137593-2abe-42e5-9551-143a199dac16">
+   <segment>
+    <source>Edificio Administrativo San Lázaro</source>
+    <target>Administrative Building San Lázaro</target>
+   </segment>
+  </unit>
+  <unit id="64faa208-8136-470e-9e85-5e7f525a7656">
+   <segment>
+    <source>15703 SANTIAGO DE COMPOSTELA</source>
+    <target>15703 SANTIAGO DE COMPOSTELA</target>
+   </segment>
+  </unit>
+  <unit id="dae3abf3-01ac-4795-85b6-ce9f805f866e">
+   <segment>
+    <source>Teléfono: 881546425 ceic@sergas.es</source>
+    <target>Phone: 881546425 ceic@sergas.es</target>
+   </segment>
+  </unit>
+  <unit id="9e62ff0e-157a-414e-a9dc-855fa162072c">
+   <segment>
+    <source>XUNTFI DE GFILICIFI</source>
+    <target>XUNTFI DE GFILICIFI</target>
+   </segment>
+  </unit>
+  <unit id="7d5cc152-a520-4c4e-9d85-476d9ca82309">
+   <segment>
+    <source>CONSELLERiA DE SANIDADE</source>
+    <target>Ministry of Health</target>
+   </segment>
+  </unit>
+  <unit id="e24c89ef-9490-4047-bf27-e362e5736270">
+   <segment>
+    <source>Secretaria Xeral Tecnica</source>
+    <target>General Technical Secretary</target>
+   </segment>
+  </unit>
+ </file>
+ </xliff>

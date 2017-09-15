@@ -1,0 +1,34 @@
+extends layout
+
+block content
+  link(rel='stylesheet', href='/stylesheets/dropzone.css')
+  script(src='/javascripts/dropzone.js')
+  script(src='/javascripts/dropzone.options.js')
+  br
+  br
+  #file-upload
+    .ui.one.column.stackable.grid.container
+      .column
+        .ui.segment(style='border:none;box-shadow:none')
+          h1.ui.header #{title} #{version}
+    .ui.two.column.stackable.grid.container
+      .column
+        .ui.segment(style='border:none;box-shadow:none')
+          h1.ui.header Machine Translated XLIFF
+        .ui.segment(style='border:none;box-shadow:none')
+          form.dropzone#dropzone-left(method='post', action='/uploadLeft')
+            .fallback
+              input(name='file', type='file')
+      .column
+        .ui.segment(style='border:none;box-shadow:none')
+          h1.ui.header Post-edited XLIFF
+        .ui.segment(style='border:none;box-shadow:none')
+          form.dropzone#dropzone-right(method='post', action='/uploadRight')
+            .fallback
+              input(name='file', type='file')
+    .ui.one.column.stackable.grid.container
+        .column
+          .ui.segment(style='border:none;box-shadow:none')
+            
+
+  #file-compare
