@@ -8,12 +8,18 @@ html
 
     meta(name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0')
 
-    link(rel='stylesheet', href='/semantic/dist/semantic.css')
     link(rel='stylesheet', href='/stylesheets/dropzone.css')
+    link(rel='stylesheet', href='/semantic/dist/semantic.css')
 
     script(src='/javascripts/jquery-3.2.1.js')
     script(src='/semantic/dist/semantic.min.js')
     script(src='/javascripts/dropzone.js')
     script(src='/javascripts/dropzone.options.js')
   body
+    br
+    .ui.middle.aligned.center.aligned.container
+      .ui.stackable.menu
+        .item
+          a(href='/')
+            img(src='/images/icon.png',width='38px',height='38px')
     block content

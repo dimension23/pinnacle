@@ -2,12 +2,14 @@ extends layout
 block content
   script(src='/javascripts/diff_match_patch.js')
   script(src='/javascripts/jquery.pretty-text-diff.min.js')
-  script(src='/javascripts/tablesort.js')
+  script(src='/javascripts/jquery.dataTables.min.js')
+  script(src='/javascripts/dataTables.semanticui.min.js')
   script.
     $(document).ready(function(){
       $("#wrapper tr").prettyTextDiff({cleanup:true});
-      $('table').tablesort();
+      $('table').DataTable();
     });
+  link(rel='stylesheet', href='/stylesheets/dataTables.semanticui.min.css')
   style(type='text/css',media='screen').
     .original, .changed, .diff, .distance {font-family: 'PT Mono', monospace;}
     ins {text-decoration: none; background-color: #ccff00}
@@ -15,8 +17,12 @@ block content
   br
   br
   #file-compare
+    //.ui.one.column.stackable.grid.container
+      //.column
+        //.ui.segment
+          //h1.ui.header(style="font-family:'Open Sans';font-size:2em;font-weight:normal") Change Tracker
     .ui.middle.aligned.center.aligned.container#wrapper
-      table.ui.sortable.celled.table
+      table.ui.celled.table
         thead
           tr
             th Original

@@ -175,7 +175,10 @@
 
 .dropzone {
   min-height: 150px;
+  font-size: 16px;
   border: 2px solid rgba(0, 0, 0, 0.3);
+  border-style: dashed;
+  border-color: #1abc9c;
   background: white;
   padding: 20px 20px; }
   .dropzone.dz-clickable {
@@ -191,6 +194,7 @@
     .dropzone.dz-drag-hover .dz-message {
       opacity: 0.5; }
   .dropzone .dz-message {
+    color: #7f8c8d;
     text-align: center;
     margin: 2em 0; }
   .dropzone .dz-preview {
@@ -204,9 +208,13 @@
       .dropzone .dz-preview:hover .dz-details {
         opacity: 1; }
     .dropzone .dz-preview.dz-file-preview .dz-image {
-      border-radius: 20px;
-      background: #999;
-      background: linear-gradient(to bottom, #eee, #ddd); }
+      /*border-radius: 5px;
+      background: #000046;
+      background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
+      background: linear-gradient(to right, #1CB5E0, #000046);*/
+      /*background: #999;*/
+      /*background: linear-gradient(to bottom, #eee, #ddd);*/
+     }
     .dropzone .dz-preview.dz-file-preview .dz-details {
       opacity: 1; }
     .dropzone .dz-preview.dz-image-preview {
@@ -229,22 +237,22 @@
       opacity: 1; }
     .dropzone .dz-preview .dz-details {
       z-index: 20;
-      position: absolute;
+      position: relative;
       top: 0;
       left: 0;
       opacity: 0;
-      font-size: 13px;
+      font-size: 14px;
       min-width: 100%;
       max-width: 100%;
       padding: 2em 1em;
       text-align: center;
-      color: rgba(0, 0, 0, 0.9);
+      color: #7f8c8d;
       line-height: 150%; }
       .dropzone .dz-preview .dz-details .dz-size {
         margin-bottom: 1em;
         font-size: 16px; }
       .dropzone .dz-preview .dz-details .dz-filename {
-        white-space: nowrap; }
+        white-space: wrap; }
         .dropzone .dz-preview .dz-details .dz-filename:hover span {
           border: 1px solid rgba(200, 200, 200, 0.8);
           background-color: rgba(255, 255, 255, 0.8); }
@@ -268,7 +276,7 @@
     .dropzone .dz-preview .dz-image {
       border-radius: 20px;
       overflow: hidden;
-      width: 120px;
+      width: 300px;
       height: 120px;
       position: relative;
       display: block;

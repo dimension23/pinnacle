@@ -15431,11 +15431,11 @@ ol.ui.horizontal.list li:before,
 .ui.segment {
   position: relative;
   background: #FFFFFF;
-  box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
+  /*box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);*/
   margin: 1rem 0em;
   padding: 1em 1em;
   border-radius: 0.28571429rem;
-  border: 1px solid rgba(34, 36, 38, 0.15);
+  /*border: 1px solid rgba(34, 36, 38, 0.15);*/
 }
 
 .ui.segment:first-child {
