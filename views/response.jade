@@ -1,0 +1,34 @@
+extends layout
+block content
+  script(src='/javascripts/diff_match_patch.js')
+  script(src='/javascripts/jquery.pretty-text-diff.min.js')
+  script(src='/javascripts/tablesort.js')
+  script.
+    $(document).ready(function(){
+      $("#wrapper tr").prettyTextDiff({cleanup:true});
+      $('table').tablesort();
+    });
+  style(type='text/css',media='screen').
+    .original, .changed, .diff, .distance {font-family: 'PT Mono', monospace;}
+    ins {text-decoration: none; background-color: #ccff00}
+    del {text-decoration: line-through; color:red; #background-color: #ee8080}
+  br
+  br
+  #file-compare
+    .ui.middle.aligned.center.aligned.container#wrapper
+      table.ui.sortable.celled.table
+        thead
+          tr
+            th Original
+            th Changed
+            th Difference
+            th Distance
+        tbody
+          for thing in data
+            tr
+              td.original #{thing.original}
+              td.changed #{thing.changed}
+              td.diff
+              td.distance #{thing.score}
+  br
+  br
