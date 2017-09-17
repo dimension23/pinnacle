@@ -87,7 +87,7 @@ router.post('/computeDiff', function(req, res, next){
 
   var results = jsonArray;
 
-  res.render('response', {data: results, total: totalSegments, faults: faultSegments, average: avgDistance,
+  res.render('response', {data: results, total: totalSegments, faults: faultSegments,
     trivial: trivialChanges, minor: minorChanges, major: majorChanges, critical: criticalChanges});
 
 });
