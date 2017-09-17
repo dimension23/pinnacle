@@ -175,8 +175,8 @@
 
 .dropzone {
   min-height: 150px;
-  font-size: 16px;
-  border: 2px solid rgba(0, 0, 0, 0.3);
+  font-size: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
   border-style: dashed;
   border-color: #1abc9c;
   background: white;
@@ -201,7 +201,7 @@
     position: relative;
     display: inline-block;
     vertical-align: top;
-    margin: 16px;
+    margin: 14px;
     min-height: 100px; }
     .dropzone .dz-preview:hover {
       z-index: 1000; }
@@ -226,7 +226,7 @@
         -o-transition: opacity 0.2s linear;
         transition: opacity 0.2s linear; }
     .dropzone .dz-preview .dz-remove {
-      font-size: 14px;
+      font-size: 12px;
       text-align: center;
       display: block;
       cursor: pointer;
@@ -241,7 +241,7 @@
       top: 0;
       left: 0;
       opacity: 0;
-      font-size: 14px;
+      font-size: 12 px;
       min-width: 100%;
       max-width: 100%;
       padding: 2em 1em;
