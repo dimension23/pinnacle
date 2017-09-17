@@ -17,12 +17,30 @@ block content
   br
   br
   #file-compare
-    //.ui.one.column.stackable.grid.container
-      //.column
-        //.ui.segment
-          //h1.ui.header(style="font-family:'Open Sans';font-size:2em;font-weight:normal") Change Tracker
+    .ui.middle.aligned.center.aligned.container
+      .ui.six.statistics
+        .orange.statistic
+          .value #{total}
+          .label segments
+        .yellow.statistic
+          .value #{faults}
+          .label corrected
+        .green.statistic
+          .value #{trivial}
+          .label trivial
+        .teal.statistic
+          .value #{minor}
+          .label minor
+        .blue.statistic
+          .value #{major}
+          .label major
+        .violet.statistic
+          .value #{critical}
+          .label critical
+    br
+    br
     .ui.middle.aligned.center.aligned.container#wrapper
-      table.ui.celled.table
+      table.ui.celled.teal.table
         thead
           tr
             th Original

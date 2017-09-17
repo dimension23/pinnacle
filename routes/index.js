@@ -4,6 +4,8 @@ var multer = require('multer');
 var fs = require('fs');
 var xmlreader = require('xmlreader');
 var levenshtein = require('fast-levenshtein');
+var stats = require("cb-fast-stats").Stats;
+var statsArray = require('stats-array');
 
 var storage = multer.diskStorage({
     destination: function (req, file, cb) {
@@ -35,6 +37,8 @@ router.post('/computeDiff', function(req, res, next){
   var humanArray = new Array();
   var idArray = new Array();
   var jsonArray = new Array();
+  var distArray = new Array();
+  var faultSegments = 0;
 
   var machineFile = fs.readFileSync('./uploads/leftFile','utf8');
   var humanFile = fs.readFileSync('./uploads/rightFile','utf-8');
@@ -61,12 +65,30 @@ router.post('/computeDiff', function(req, res, next){
      var distance = levenshtein.get(humanArray[i], machineArray[i]);
      if (distance > 0) {
        var jsonObject = {'id': idArray[i], 'original': machineArray[i], 'changed': humanArray[i], score: distance};
+       faultSegments = faultSegments + 1;
+       distArray.push(distance);
        jsonArray.push(jsonObject);
      }
   }
 
+  // some statistics on distances
+  var avgDistance = distArray.mean();
+  var minDistance = distArray.min();
+  var maxDistance = distArray.max();
+  var totalSegments = idArray.length;
+
+  // distribution
+  var statsObj = new stats({buckets:[[minDistance, avgDistance].mean(), avgDistance, [avgDistance, maxDistance].mean()]}).push(distArray);
+  var d = statsObj.distribution();
+  var trivialChanges = d[0].count;
+  var minorChanges = d[1].count;
+  var majorChanges = d[2].count;
+  var criticalChanges = d[3].count;
+
   var results = jsonArray;
-  res.render('response', {data: results});
+
+  res.render('response', {data: results, total: totalSegments, faults: faultSegments, average: avgDistance,
+    trivial: trivialChanges, minor: minorChanges, major: majorChanges, critical: criticalChanges});
 
 });
 
