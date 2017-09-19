@@ -7,7 +7,9 @@ block content
   script.
     $(document).ready(function(){
       $("#wrapper tr").prettyTextDiff({cleanup:true});
-      $('table').DataTable();
+      var table = $('table').DataTable();
+      var idColumn = table.column(0);
+      idColumn.visible(false);
     });
   link(rel='stylesheet', href='/stylesheets/dataTables.semanticui.min.css')
   style(type='text/css',media='screen').
@@ -43,13 +45,15 @@ block content
       table.ui.celled.teal.table
         thead
           tr
-            th Original
-            th Changed
+            th Segment id
+            th Machine Translated
+            th Post-edited
             th Difference
             th Distance
         tbody
           for thing in data
             tr
+              td.id #{thing.id}
               td.original #{thing.original}
               td.changed #{thing.changed}
               td.diff

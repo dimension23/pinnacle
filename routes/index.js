@@ -20,7 +20,7 @@ var upload = multer({storage: storage});
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Change Tracker', version: 'v0.1' });
+  res.render('index', { title: 'Change Tracker', version: 'v0.1'});
 });
 
 router.post('/uploadLeft', upload.single('leftFile'), function(req, res, next){
@@ -31,7 +31,9 @@ router.post('/uploadRight', upload.single('rightFile'), function(req, res, next)
   res.status(200).send(req.file);
 });
 
-router.post('/computeDiff', function(req, res, next){
+router.get('/computeDiff', function(req, res, next){
+
+  var postedited = req.params.postedited;
 
   var machineArray = new Array();
   var humanArray = new Array();
