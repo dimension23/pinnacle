@@ -16,6 +16,7 @@ var storage = multer.diskStorage({
   }
 });
 
+
 var upload = multer({storage: storage});
 
 /* GET home page. */
@@ -31,9 +32,9 @@ router.post('/uploadRight', upload.single('rightFile'), function(req, res, next)
   res.status(200).send(req.file);
 });
 
-router.get('/computeDiff', function(req, res, next){
+router.post('/computeDiff', function(req, res, next){
 
-  var postedited = req.params.postedited;
+  var postEditFlag = req.body['postedited'];
 
   var machineArray = new Array();
   var humanArray = new Array();
@@ -58,8 +59,15 @@ router.get('/computeDiff', function(req, res, next){
 
   xmlreader.read(humanFile, function(err, res){
     if(err) return console.log(err);
-    for(var i = 0; i < res.xliff.file.unit.count(); i++){
-      humanArray.push(res.xliff.file.unit.at(i).segment.target.text());
+    if (postEditFlag == 'on') {
+      for(var i = 0; i < res.xliff.file.unit.count(); i++){
+        humanArray.push(res.xliff.file.unit.at(i).segment.target.text());
+      }
+    }
+    else {
+      for(var i = 0; i < res.xliff.file.unit.count(); i++){
+        humanArray.push(res.xliff.file.unit.at(i).segment.source.text());
+      }
     }
   });
 
@@ -80,7 +88,12 @@ router.get('/computeDiff', function(req, res, next){
   var totalSegments = idArray.length;
 
   // distribution
-  var statsObj = new stats({buckets:[[minDistance, avgDistance].mean(), avgDistance, [avgDistance, maxDistance].mean()]}).push(distArray);
+  var range_1 = minDistance;
+  var range_2 = [minDistance, avgDistance].mean();
+  var range_3 = avgDistance;
+  var range_4 = [avgDistance, maxDistance].mean();
+  var range_5 = maxDistance;
+  var statsObj = new stats({buckets:[range_2, range_3, range_4]}).push(distArray);
   var d = statsObj.distribution();
   var trivialChanges = d[0].count;
   var minorChanges = d[1].count;
@@ -90,7 +103,8 @@ router.get('/computeDiff', function(req, res, next){
   var results = jsonArray;
 
   res.render('response', {data: results, total: totalSegments, faults: faultSegments,
-    trivial: trivialChanges, minor: minorChanges, major: majorChanges, critical: criticalChanges});
+    trivial: trivialChanges, minor: minorChanges, major: majorChanges, critical: criticalChanges,
+    range_1: range_1, range_2: range_2, range_3: range_3, range_4: range_4, range_5: range_5});
 
 });
 

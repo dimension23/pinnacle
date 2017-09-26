@@ -7,17 +7,10 @@ block content
     var isChecked = 0;
     $(document).ready(function(){
       $('#submit_button').click(function(){
-        if ($('#post-edited').is(':checked')) {
-          isChecked = 1;
-        }
+        if ($('#post-edited').is(':checked'));
       });
     });
   #file-upload
-    .ui.one.column.stackable.grid.container
-      .ui.segment
-        .ui.toggle.checkbox
-          input#post-edited(type='checkbox',name='postedited',checked="")
-          label(style="font-family:'Open Sans';color:#9E9E9E;") Post-edited file?
     .ui.two.column.stackable.grid.container
       .column
         .ui.segment(style="box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);border: 1px solid rgba(34, 36, 38, 0.15)")
@@ -30,7 +23,12 @@ block content
             .fallback
               input(name='file', type='file')
     .ui.one.column.stackable.grid.container
-        .column
-          .ui.segment#submit_segment
-            form(method='get', action='/computeDiff')
-              button.ui.teal.button#submit_button() Submit
+        .ui.segment#submit_segment
+          form(method='post',action='/computeDiff').ui.form
+            .field
+              button#submit_button(type='submit').ui.teal.button Submit
+            br
+            .field
+              .ui.toggle.checkbox
+                input(type='checkbox', name='postedited', checked="")
+                label(style="font-family:'Open Sans';color:#9E9E9E;") Post-edited file?
