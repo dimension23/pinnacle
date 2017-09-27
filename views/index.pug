@@ -3,6 +3,9 @@ extends layout
 block content
   br
   br
+  link(rel='stylesheet', href='/stylesheets/dropzone.css')
+  script(src='/javascripts/dropzone.js')
+  script(src='/javascripts/dropzone.options.js')
   script.
     var isChecked = 0;
     $(document).ready(function(){

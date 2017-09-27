@@ -7,22 +7,19 @@ html
     title Change Tracker
 
     meta(name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0')
-    
+
     link(rel='icon', type='image/ico', href='/images/favicon.ico')
-    link(rel='stylesheet', href='/stylesheets/dropzone.css')
     link(rel='stylesheet', href='/semantic/dist/semantic.css')
 
     script(src='/javascripts/jquery-3.2.1.js')
     script(src='/semantic/dist/semantic.min.js')
-    script(src='/javascripts/dropzone.js')
-    script(src='/javascripts/dropzone.options.js')
   body
     br
     .ui.middle.aligned.center.aligned.container
-      .ui.stackable.menu
+      .ui.secondary.menu(style="border:none;box-shadow:none;")
         .item
           a(href='/')
             img(src='/images/icon.png',width='38px',height='38px')
         .item
-          h3(style="font-family:'Open Sans';font-weight:normal;") Change Tracker
+          h2(style="font-family:'Open Sans';font-weight:normal;") Change Tracker
     block content

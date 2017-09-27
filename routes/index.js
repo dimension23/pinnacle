@@ -21,7 +21,7 @@ var upload = multer({storage: storage});
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Change Tracker', version: 'v0.1'});
+  res.render('index');
 });
 
 router.post('/uploadLeft', upload.single('leftFile'), function(req, res, next){
@@ -42,6 +42,7 @@ router.post('/computeDiff', function(req, res, next){
   var jsonArray = new Array();
   var distArray = new Array();
   var faultSegments = 0;
+  var fileId, fileName;
 
   var machineFile = fs.readFileSync('./uploads/leftFile','utf8');
   var humanFile = fs.readFileSync('./uploads/rightFile','utf-8');
@@ -55,6 +56,8 @@ router.post('/computeDiff', function(req, res, next){
       machineArray.push(res.xliff.file.unit.at(i).segment.target.text());
       idArray.push(res.xliff.file.unit.at(i).attributes().id);
     }
+    fileId = res.xliff.file.attributes().id;
+    fileName = res.xliff.file.attributes().original;
   });
 
   xmlreader.read(humanFile, function(err, res){
@@ -74,7 +77,7 @@ router.post('/computeDiff', function(req, res, next){
   for (var i=0; i < idArray.length; i++) {
      var distance = levenshtein.get(humanArray[i], machineArray[i]);
      if (distance > 0) {
-       var jsonObject = {'id': idArray[i], 'original': machineArray[i], 'changed': humanArray[i], score: distance};
+       var jsonObject = {'id': idArray[i], 'original': machineArray[i], 'changed': humanArray[i], distance: distance};
        faultSegments = faultSegments + 1;
        distArray.push(distance);
        jsonArray.push(jsonObject);
@@ -86,14 +89,17 @@ router.post('/computeDiff', function(req, res, next){
   var minDistance = distArray.min();
   var maxDistance = distArray.max();
   var totalSegments = idArray.length;
+  var minmaxDiff = maxDistance - minDistance;
+  console.log(minmaxDiff);
+
+  for (var i=0; i < jsonArray.length; i++) {
+    jsonArray[i].distance = Math.abs((jsonArray[i].distance - minDistance) / minmaxDiff).toFixed(6);
+  }
+
+  //console.log(JSON.stringify(jsonArray));
 
   // distribution
-  var range_1 = minDistance;
-  var range_2 = [minDistance, avgDistance].mean();
-  var range_3 = avgDistance;
-  var range_4 = [avgDistance, maxDistance].mean();
-  var range_5 = maxDistance;
-  var statsObj = new stats({buckets:[range_2, range_3, range_4]}).push(distArray);
+  var statsObj = new stats({buckets:[[minDistance, avgDistance].mean(), avgDistance, [avgDistance, maxDistance].mean()]}).push(distArray);
   var d = statsObj.distribution();
   var trivialChanges = d[0].count;
   var minorChanges = d[1].count;
@@ -104,7 +110,7 @@ router.post('/computeDiff', function(req, res, next){
 
   res.render('response', {data: results, total: totalSegments, faults: faultSegments,
     trivial: trivialChanges, minor: minorChanges, major: majorChanges, critical: criticalChanges,
-    range_1: range_1, range_2: range_2, range_3: range_3, range_4: range_4, range_5: range_5});
+    fileId: fileId, fileName: fileName});
 
 });
 
