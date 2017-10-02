@@ -14,19 +14,17 @@ block content
 
   link(rel='stylesheet', href='/stylesheets/dataTables.semanticui.min.css')
   link(rel='stylesheet', href='https://cdn.datatables.net/buttons/1.4.2/css/buttons.semanticui.min.css')
-  style(type='text/css',media='screen').
-    .original, .changed, .diff, .distance {font-family: 'PT Mono', monospace;}
-    ins {text-decoration: none; background-color: #ccff00}
-    del {text-decoration: line-through; color:red; #background-color: #ee8080}
   br
   br
   .ui.middle.aligned.center.aligned.container#wrapper
-    .ui.steps
-      .active.step
+    .ui.small.steps
+      .step
         i.file.text.outline.icon
         .content
+        a(href="javascript:window.print();")
           .title #{fileName}
           .description #{fileId}
+
   br
   br
   #file-compare
